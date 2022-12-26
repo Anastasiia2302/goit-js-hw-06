@@ -12,5 +12,5 @@ function getRandomHexColor() {
   const color = getRandomHexColor();
   spanColor.textContent = color;
   bodyEl.style.backgroundColor = color;
-  console.log(spanColor);
+  console.log(`Color: ${color}`);
  }
